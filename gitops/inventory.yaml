@@ -201,7 +201,7 @@ items:
             ports:
               - containerPort: 3306
                 protocol: TCP
-            imagePullPolicy: IfNotPresent
+            imagePullPolicy: Always
             volumeMounts:
               - name: inventory-mariadb-data
                 mountPath: /var/lib/mysql/data

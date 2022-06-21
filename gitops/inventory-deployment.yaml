@@ -52,7 +52,7 @@ spec:
                 fieldRef:
                   apiVersion: v1
                   fieldPath: metadata.namespace
-          image: image-registry.openshift-image-registry.svc:5000/opentlc-mgr-codeready/inventory:a6b587c2fc9ab0f9cd04d4d4806b88ce01be1723
+          image: image-registry.openshift-image-registry.svc:5000/demo/inventory:b3c8f4af0b709f007b986f813798b0bbd5ed240a
           imagePullPolicy: Always
           livenessProbe:
             exec:

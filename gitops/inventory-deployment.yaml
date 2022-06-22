@@ -52,7 +52,7 @@ spec:
                 fieldRef:
                   apiVersion: v1
                   fieldPath: metadata.namespace
-          image: quay.io/aslakknutsen/workshop-inventory:v1
+          image: image-registry.openshift-image-registry.svc:5000/demo/inventory:78f09ebc19a211cb36cddb1d230800bf4d982d80
           imagePullPolicy: Always
           livenessProbe:
             exec:
